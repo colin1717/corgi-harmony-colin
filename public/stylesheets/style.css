@@ -1,0 +1,30 @@
+body {
+  padding: 15px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+a {
+  color: #00B7FF;
+}
+
+header {
+  padding-bottom: 15px;
+}
+
+#name-age {
+  padding-bottom: 10px;
+}
+
+.show-likes {
+  padding-top: 10px;
+}
+
+.main-pic {
+  padding-bottom: 25px;
+}
+
+#dog {
+  height: 350px;
+  width: 350px;
+}

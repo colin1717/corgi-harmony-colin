@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <header>
+      <h1><%= title %></h1>
+    </header>
+    <section>
+      <div id="name-age">
+        <div class='row'>
+        <div class="col-md-4"></div>
+        <div class="col-md-2">
+          <p id="name">Name: <%= corgiName %><p>
+        </div>
+        <div class="col-md-2">
+          <p id="age">Age: <%= corgiAge %></p>
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+      </div>
+      <div class="main-pic">
+        <img id='dog' src="/images/headphones.jpg">
+      </div>
+    </section>
+    <section>
+      <div class='row'>
+        <div class="col-md-4"></div>
+        <div class="col-md-1">
+          <a class="btn btn-default" href="#" role="button" id="dislike-button">Dislike</a>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-1"></div>
+        <div class="col-md-1">
+          <a class="btn btn-default" href="#" role="button" id="like-button">Like</a>
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+    </section>
+    <section class="show-likes">
+      <a class="btn btn-default" href="/corgis" role="button" id="show-likes-button">Show Likes</a
+    </section>
+
+    <script src='/javascripts/script.js'></script>
+  </body>
+</html>
