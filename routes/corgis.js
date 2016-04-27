@@ -75,7 +75,7 @@ router.delete('/:corgiId', function(req, res, next) {
     if (err){
       res.status(500).send();
     } else {
-      res.status(204).send();
+      res.status(204).send("You deleted that corgi");
     }
   })
 })
